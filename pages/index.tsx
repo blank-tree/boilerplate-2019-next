@@ -1,14 +1,14 @@
-import App from '../components/App'
-import Header from '../components/Header'
-import Submit from '../components/Submit'
-import PostList from '../components/PostList'
+import * as React from 'react'
+import Link from 'next/link'
+import Layout from '../components/Layout'
 
-import '../styles/style.scss';
+const IndexPage: React.FunctionComponent = () => {
+  return (
+    <Layout title="Home | Next.js + TypeScript Example">
+      <h1>Hello Next.js 👋</h1>
+      <p><Link href='/about'><a>About</a></Link></p>
+    </Layout>
+  )
+}
 
-export default () => (
-  <App>
-    <Header />
-    <Submit />
-    <PostList />
-  </App>
-)
+export default IndexPage;

@@ -1,4 +1,4 @@
-# Boilerplate: TypeScript, React, Next.js, Apollo, Sass
+# Boilerplate: TypeScript, React, Next.js, Sass
 
 Currently basend on the next with apollo example
 
